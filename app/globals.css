@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 650px;
+}
+
+@media screen and (max-width: 650px) {
+  #root {
+    width: 360px;
+  }
+}

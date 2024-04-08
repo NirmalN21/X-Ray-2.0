@@ -51,8 +51,9 @@
 }
 
 .radar-graph div {
-  height: 500px;
-  width: 500px;
+  height: auto;
+  width: 100%;
+  padding: 16px;
 }
 
 .First-head {
@@ -79,10 +80,6 @@
 }
 
 @media (max-width: 650px) {
-  .First {
-    width: 360px;
-  }
-
   .First-heading {
     margin-top: 30px;
     font-size: 30px;
@@ -90,14 +87,13 @@
   }
 
   .First-content {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
   }
   .radar-graph div {
     display: flex;
     justify-content: center;
-    width: 328px;
-    height: 269px;
+   
   }
 
   .First-footer {

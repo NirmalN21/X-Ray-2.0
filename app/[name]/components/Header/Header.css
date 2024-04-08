@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 650px) {
   .header {
-    height: 70px;
+    height: auto;
   }
   .category {
     font-size: 28px;
